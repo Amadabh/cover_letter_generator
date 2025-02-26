@@ -1,0 +1,53 @@
+# Dependencies & lock files
+node_modules/
+bun.lock
+package-lock.json
+go.sum
+python/
+my_lambda/
+my_env/
+a.js
+
+# Build & output files
+dist/
+my_lambda.zip
+lambda_layer.zip
+
+# Python environment & dependencies
+myenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+requirements.txt
+
+# Golang cache & compiled binaries
+*.exe
+*.out
+*.o
+*.a
+*.so
+main
+go.mod
+go.sum
+
+# Vite & public build
+.vite/
+public/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Editor & OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# GitHub Pages (if deploying)
+.gh-pages/
