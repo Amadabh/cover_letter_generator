@@ -3,6 +3,10 @@ node_modules/
 bun.lock
 package-lock.json
 go.sum
+python/
+my_lambda/
+my_env/
+a.js
 
 # Build & output files
 dist/
