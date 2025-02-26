@@ -16,6 +16,7 @@ const App = () => {
   const [jobDescription, setJobDescription] = useState("");
   const [resumeFileText, setResumeFileText] = useState("");
   const lambdaUrl = import.meta.env.VITE_LAMBDA;
+
   // State to control PDF preview data
   const [previewData, setPreviewData] = useState({
     fullName: "",
